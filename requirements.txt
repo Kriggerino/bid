@@ -1,0 +1,13 @@
+openai
+pymupdf
+fastapi
+python-docx
+python-dotenv
+langchain
+langchain-openai
+google-search-results
+chromadb
+python-multipart
+google-generativeai
+pdf2image
+ipython

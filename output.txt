@@ -1,0 +1,200 @@
+Result: The features and specification of the Cisco Nexus 9300-FX2 Series Switches is:
+
+Switch models:
+- Cisco Nexus 9336C-FX2
+- Cisco Nexus 93240YC-FX2
+- Cisco Nexus 93360YC-FX2
+
+Features and benefits:
+- Architectural Flexibility
+- Extensive Programmability
+
+Product specifications:
+- Cisco Nexus 9336C-FX2:
+  - Ports: 36 x 40/100-Gbps QSFP28 ports
+  - Supported speeds: 1/10/25/40/100-Gbps Ethernet
+  - CPU: 4 cores
+  - System memory: 24 GB
+  - SSD drive: 128 GB
+  - System buffer: 40 MB
+  - Power supplies: 1100W AC, 1100W DC, 1100W HVAC/HVDC
+
+- Cisco Nexus 93240YC-FX2:
+  - Ports: 48 x 1/10/25-Gbps and 12 x 40/100-Gbps QSFP28 ports
+  - Supported speeds: 1/10/25-Gbps on downlinks, 40/100-Gbps on uplinks
+  - CPU: 4 cores
+  - System memory: 16 GB
+  - SSD drive: 128 GB
+  - System buffer: 40 MB
+  - Power supplies: 1100W AC, 1100W DC, 1100W HVAC/HVDC
+
+- Cisco Nexus 93360YC-FX2:
+  - Ports: 96 x 1/10/25-Gbps and 12 x 40/100-Gbps QSFP28 ports
+  - Supported speeds: 1/10/25-Gbps on downlinks, 40/100-Gbps on uplinks
+  - CPU: 4 cores
+  - System memory: 16 GB
+  - SSD drive: 128 GB
+  - System buffer: 40 MB
+  - Power supplies: 1200W AC, 1200W HVAC/HVDC
+
+Software licensing and optics supported:
+- Provides information on software packaging, licensing, and optics modules supported.
+
+Ordering information:
+- Lists the part numbers and product descriptions for the Cisco Nexus 9300-FX series switches.
+
+Warranty, service and support:
+- Information on warranty, service, and support for the Cisco Nexus 9300-FX2 Series Switches.
+
+Cisco Capital:
+- Provides information on financing options for Cisco products.
+
+For more information:
+- Offers additional resources for obtaining more information about the Cisco Nexus 9300-FX2 Series Switches.
+Result: The features and specification of the Quantum 6600 Security Gateway is:
+
+Features:
+- OSPFv2 and v3, BGP, RIP
+- Static routes, Multicast routes
+- Policy-based routing
+- PIM-SM, PIM-SSM, PIM-DM, IGMP v2, and v3
+- AI Deep Learning Threat Prevention
+- Quantum firewalls use Check Point’s threat intelligence cloud
+- Quantum IoT Protect for autonomous threat prevention
+- Integrated SD-WAN
+- Enterprise-grade platform
+- Next Generation Firewall, Next Generation Threat Prevention and SandBlast packages
+
+Specifications:
+- Physical:
+  - 1RU Enclosure
+  - Dimensions (WxDxH): 17.2 x 20 x 1.73 in.(438 x 508 x 44mm)
+  - Weight (Base/Plus): 16.5/17.4 lbs. (7.5/7.9 kg)
+- Power Requirements:
+  - Single Power Supply rating: 300W
+  - AC power input: 100 to 240V (50-60Hz)
+  - Power consumption avg/max: 84W/147W
+  - Maximum thermal output: 501.6 BTU/hr.
+- Environmental Conditions:
+  - Operating: 0° to 40°C, humidity 5 to 95%
+  - Storage: –20° to 70°C, humidity 5 to 95%
+- Certifications:
+  - Safety: UL, CB, CE, TUV GS
+  - Emissions: FCC, CE, VCCI, RCM/C-Tick
+  - Environmental: RoHS, WEEE, REACH, ISO14001
+- Performance:
+  - Threat Prevention: 3.7 Gbps
+  - NGFW: 6.2 Gbps
+  - IPS: 10.14 Gbps
+  - Firewall: 18 Gbps
+- Additional Features:
+  - 1x CPUs, 6x physical cores
+  - 1x 240 GB SSD storage
+  - 1 AC or DC power supply (2x in Plus)
+  - 8, 16 and 32 GB memory options
+  - Lights-Out-Management (included in Plus)
+  - Virtual Systems (Base/Plus/max mem): 10/20/20
+  - Network Expansion Slot Options:
+    - 8x 10/100/1000Base-T RJ45 port card, up to 18 ports
+    - 4x 1000Base-F SFP port card, up to 4 ports
+    - 4x 10GBase-F SFP+ port card, up to 4 ports
+- Content Security:
+  - CPU-level, OS-level and static file analysis
+  - File disarm and reconstruction via Threat Extraction
+  - Average emulation time for unknown files that require full sandbox evaluation is under 100 seconds
+  - Maximal file size for Emulation is 100 MB
+  - Emulation OS Support: Windows XP, 7, 8.1, 10
+Result: The features and specifications of the Check Point Quantum 6700 Security Gateway are:
+
+- Performance: The device offers threat prevention of 5.8 Gbps, Next Gen Firewall of 13.4 Gbps, IPS of 19 Gbps, and Firewall of 26 Gbps. It also has a VPN AES-128 performance of 4.61 Gbps, connections/sec of 164,000, and concurrent connections of 2/4/8M.
+- CPU: The device has 1 CPU with 6 physical cores and 12 virtual cores.
+- Memory: The device offers 8, 16, and 32 GB memory options.
+- Storage: The device has 1x 480 GB SSD storage.
+- Power: The device has 1 AC or DC power supply (2x in Plus).
+- Network Expansion Slot Options: The device has 1 of 1 slots open for expansion, with options including an 8x 10/100/1000Base-T RJ45 port card (up to 18 ports), a 4x 1000Base-F SFP port card (up to 4 ports), and a 4x 10GBase-F SFP+ port card (up to 4 ports).
+- Content Security: The device offers CPU-level, OS-level, and static file analysis, file disarm and reconstruction via Threat Extraction, and an average emulation time for unknown files that require full sandbox evaluation of under 100 seconds. The maximal file size for Emulation is 100 MB, and Emulation OS Support includes Windows XP, 7, 8.1, and 10.
+- Applications: The device allows for the use of 10,000+ pre-defined or customized applications, with the ability to accept, prevent, schedule, and apply traffic-shaping.
+- Data Loss Prevention: The device can classify 700+ pre-defined data types and offers end user and data owner incident handling.
+- Dynamic User-based Policy: The device integrates with Microsoft AD, LDAP, RADIUS, Cisco pxGrid, Terminal Servers, and with 3rd parties via a Web API, and can enforce consistent policy for local and remote users on Windows, macOS, Linux, Android, and Apple iOS platforms.
+- Network Connectivity: The device offers integrated SD-WAN network optimization and resilience, with total physical and virtual (VLAN) interfaces per appliance of 1024/4096 (single gateway/with virtual systems), 802.3ad passive and active link aggregation, and Layer 2 (transparent) and Layer 3 (routing) mode.
+- High Availability: The device offers Active/Active L2, Active/Passive L2 and L3, session failover for routing change, device and link failure, and ClusterXL or VRRP.
+- IPv6: The device offers NAT66, NAT64, NAT46, CoreXL, SecureXL, HA with VRRPv3, and Unicast and Multicast Routing (see SK98226), including OSPFv2 and v3, BGP, RIP, static routes, Multicast routes, policy-based routing, PIM-SM, PIM-SSM, PIM-DM, IGMP v2, and v3.
+- Physical: The device has a single power supply rating of 300W, AC power input of 100 to 240V (50-60Hz), power consumption avg/max of 112W/149W, and maximum thermal output of 508.4 BTU/hr. The enclosure is 1RU, with dimensions of 17.2 x 20 x 1.73 in. (438 x 508 x 44mm) and a weight of 16.5/17.4 lbs. (7.5/7.9 kg) for the Base/Plus models.
+- Environmental Conditions: The device can operate in temperatures ranging from 0° to 40°C, with humidity of 5 to 95%, and can be stored in temperatures ranging from -20° to 70°C, with humidity of 5 to 95%.
+- Certifications: The device is safety certified by UL, CB, CE, and TUV GS, emissions certified by FCC, CE, VCCI, and RCM/C-Tick, and environmentally certified by RoHS, WEEE, REACH, and ISO14001.
+Result: The features and specification of the Maestro Hyperscale Orchestrator 140 are:
+- Mid-range model with 48x 10GbE and 8x 100 GbE ports
+- Total fabric capacity of 1.28 Tbps
+- 32 GB RAM
+- 10x 1GbE copper on-board
+- 4x 10GbE fiber
+- 2x AC PSU
+- 2x 480GB SSD
+- LOM
+- 2x 10G DAC cables (3m)
+
+The features and specification of the Maestro Hyperscale Orchestrator 175 are:
+- High-end model with 32x 100 GbE ports
+- Total fabric capacity of 3.2 Tbps
+- 32 GB RAM
+- 10x 1GbE copper on-board
+- 4x 10GbE fiber
+- 2x AC PSU
+- 2x 480GB SSD
+- LOM
+- 2x 10G DAC cables (3m)
+
+The features and specification of the Maestro Solution with 3x 7000 Plus firewalls with SandBlast subscription package for 1 year and 1x Orchestrator (MHO -140) are:
+- 32 GB RAM
+- 10x 1GbE copper on-board
+- 4x 10GbE fiber
+- 2x AC PSU
+- 2x 480GB SSD
+- LOM
+- 2x 10G DAC cables (3m, 3m)
+
+The features and specification of the Maestro Solution with 2x 6700 Plus firewalls with SandBlast subscription package for 1 year and one Orchestrator (MHO-140) are:
+- 16 GB RAM
+- 10x 1GbE copper on-board
+- 4x 10GbE fiber
+- 2x AC PSU
+- 2x 480GB SSD
+- LOM
+- 2x 10G DAC cables (3m, 3m)
+
+The features and specification of the 6600 firewall with SandBlast subscription for 1 year are:
+- 16 GB RAM
+- 10x 1GbE fiber
+- 2x AC PSUs
+- 1x 240 GB SSD
+- LOM
+- 2x 10G DAC cables (3m, 3m)
+
+The features and specification of the 6200 firewall with SandBlast subscription for 1 year are:
+- 16 GB RAM
+- 10x 1GbE copper on-board
+- 4x 10GbE fiber
+- 2x AC PSUs
+- 1x 240 GB SSD
+- LOM
+- 2x 10G DAC cables (3m, 3m)
+
+The features and specification of the MLS400 Lightspeed firewall are:
+- 192 GB RAM
+- 4x 100G QSFP28 ConnectX ports
+- 2x 1GbE copper ports on-board
+- 2x 960GB SSD
+- 2x AC PSU
+- Lights-out Management
+- Telescopic rails
+- 4x 100G DAC cables (3m, 3m)
+
+The features and specification of the MLS200 Lightspeed firewall are:
+- 64 GB RAM
+- 2x 100G QSFP28 ConnectX ports
+- 10x 1GbE copper ports on-board
+- 2x 480GB SSD
+- 2x AC PSU
+- Lights-out Management
+- Telescopic rails
+- 2x 100G DAC cables (3m, 3m)
