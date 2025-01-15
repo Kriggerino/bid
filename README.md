@@ -8,9 +8,6 @@
 - Loop và so sánh thông tin trong tuyên bố đáp ứng với tài liệu tương ứng.
 - Tổng hợp kết quả và hiển thị.
 
-## Tài liệu liên quan:
-
-- Tài liệu đáp ứng của SeaBank - Yêu cầu không chia sẻ.
 
 ## Tiêu chuẩn coding:
 
