@@ -20,9 +20,6 @@ openai.api_key = os.getenv("OPENAI_API_KEY")
 client = openai.OpenAI()
 
 
-# Insert docx file path for req summary
-
-
 def get_docx_data(validation_path):
     data = []
 
@@ -71,7 +68,6 @@ def get_requirements(docx_data):
             }],
             temperature=0.1,
             top_p=1,
-
         )
     except Exception as e:
         print(e)
@@ -108,7 +104,7 @@ def get_datasheets(arr):
         search = GoogleSearch({
             "engine": "google",
             "q": f"{name} filetype:pdf",
-            "api_key": f'{os.getenv("SERPAPI_KEY")}',
+            "api_key": os.getenv("SERPAPI_KEY"),
             "num": 1,
         })
         result = search.get_dict()
@@ -118,7 +114,7 @@ def get_datasheets(arr):
         try:
             response = requests.get(url, allow_redirects=True)
             # Extracting the filename from the URL
-            max_size = 32* 1024 * 1024
+            max_size = 32 * 1024 * 1024
             filename = url.split("/")[-1]
             file_size = len(response.content)
             if file_size < max_size:
@@ -142,7 +138,7 @@ def read_datasheets_specs(downloaded_files):
         try:
             files = [('file', ('file', open(f'{file_paths}','rb'), 'application/octet-stream'))]
             headers = {
-                'x-api-key': 'sec_cZErkSMw8uyphfqgmOoY7rL0QHzX3ky4'
+                'x-api-key': os.getenv("CHATPDF_API_KEY")
             }
             response = requests.post(
                 'https://api.chatpdf.com/v1/sources/add-file', headers=headers, files=files)
@@ -157,7 +153,7 @@ def read_datasheets_specs(downloaded_files):
     for source in chatpdf_sources:
         try:
             headers = {
-                'x-api-key': 'sec_cZErkSMw8uyphfqgmOoY7rL0QHzX3ky4',
+                'x-api-key': os.getenv("CHATPDF_API_KEY"),
                 "Content-Type": "application/json",
             }
 
@@ -212,22 +208,3 @@ def compare(datasheets_specs, requirements, query):
     chain = create_stuff_documents_chain(llm, custom_rag_prompt)
 
     return chain.invoke({"context": enhanced_documents, "question": query})
-
-
-
-# Workflow tests, replicate on API call
-# requirements = get_requirements(data)
-
-# datasheets = get_datasheet_name(data)
-
-
-# downloaded_files = get_datasheets(datasheets)
-
-
-
-# datasheets_specs = read_datasheets_specs(downloaded_files)
-# print(datasheets_specs)
-# final = compare(datasheets_specs=datasheets_specs, requirements=requirements,
-#                 query="Compare the 'Quantum 6600 Security Gateway' to the requirements of 'Thiết bị tường lửa cho phân vùng kết nối Cloud' and answer if they match. If any specs doesn't match, list how they do not match.")
-
-# print(final)
